@@ -26,7 +26,7 @@ type DnsRecord struct {
 	Priority  int     `json:"priority"`
 	Weight    *int    `json:"weight,omitempty"`
 	Port      *int    `json:"port,omitempty"`
-	Flag      *string `json:"flag,omitempty"`
+	Flag      *int    `json:"flag,omitempty"`
 	Tag       *string `json:"tag,omitempty"`
 	Managed   bool    `json:"managed"`
 	Value     string  `json:"value"`
